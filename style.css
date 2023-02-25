@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box*/
+}
+
+body{
+    background-color: #68df01;
+}
+.section{
+    margin-top: 8%;  
+    
+}
+.section h1{
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: 'Dancing Script', cursive;
+}
+.team{
+    display: flex;/*By giving  this the three child div element comes in one line*/
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;      
+}
+.team .team_members{
+    background: #fff;
+    margin:15px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #2f2e2e;
+    font-size: medium;
+    position: relative;
+}
+.team .team_members h3{
+    color: hsl(187, 100%, 42%);
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Uchen', serif;
+}
+.team .team_members p.role{
+    color: rgb(3, 3, 3);
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 12px o;
+}
+.team .team_members .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #fff;
+    padding: 10px;
+    
+}
+.team .team_members .team_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
